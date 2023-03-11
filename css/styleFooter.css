@@ -1,0 +1,134 @@
+/*footer*/
+#ToWhite {
+	filter: invert(1);
+	margin: 5px;
+}
+#ToWhite a:hover {
+	opacity: 0.5;
+	-moz-transition: all 400ms linear 0s;
+}
+footer {
+	/*background-image: url(../images/footer_negro.png);*/
+	background-color: black;
+	/*background-repeat: repeat;*/
+	bottom: 0;
+	width: 100%;
+	height: max-content;
+	text-align: center;
+	position: absolute;
+	padding-top: 0.5em;
+	margin-top: auto;
+}
+#footer_title {
+	margin-bottom: 10px;
+	color: #f8f8f8;
+}
+footer p {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+	color: #333333;
+}
+footer h2 {
+	padding: 0 0 20px 0;
+	margin: 15px 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font: bold 120% Arial, Helvetica, Sans-Serif;
+	border-bottom: 2px solid #666;
+	color: #FFCC99;
+    text-shadow: 1px 1px 1px #000000;
+	background: inherit;
+}
+footer a {
+	color: #f9d86f;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer ul li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+footer ul li a {
+	display: block;
+	color: #d6d6d6;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0;
+	margin-top: 15px;
+	/*border-bottom: 1px solid #666;*/
+}
+footer ul li a:hover {
+	background: none;
+	color: #d6d6d6;
+	text-decoration: underline;
+	-moz-border-radius-bottomright: 500px;
+}
+footer ul p a {
+	color: #848484;
+	font-size: 14px;
+	font-weight: bold;
+}
+footer ul p {
+	color: #848484;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+#footerli {
+	float:left;
+}
+footer ul footerli a img:hover {
+	opacity: 0.5;
+	-moz-transition: all 400ms linear 0s;
+}
+#footerleft {
+	float: left;
+	width: 33%;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: white;
+}
+#footermiddle {
+	float: left;
+	width: 33%;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-size: 24px;
+	color: white;
+}
+#footermiddle ul {
+	margin-top: 20px;
+}
+#footerright {
+	float: left;
+	width: 33%;
+	padding-top: 0;
+	padding-right: 10;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin: 0;
+	font-size: 24px;
+	color: white;
+}
+footer p a {
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+}
