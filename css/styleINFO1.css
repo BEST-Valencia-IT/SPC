@@ -156,7 +156,7 @@ details {
 	box-shadow:0px 0px 2px #000000;
 	padding-right: 10px;
 	padding-bottom:20px;
-	height: 210px;
+	height: 13em;
 
 }
 .enter em {
@@ -169,67 +169,6 @@ details {
 	font-size: 16px;
 	color: #222222;
 }
-.imgteaser {
-	margin: 0;
-	overflow: hidden;
-	float: left;
-	position: relative;
-}
-.imgteaser a {
-	text-decoration: none;
-	float: left;
-}
-.imgteaser a:hover {
-	cursor: pointer;
-}
-.imgteaser a img {
-	float: left;
-	border: none;
-	padding: 10px;
-	background: #fff;
-	border: 1px solid #333333;
-	margin-top: 3;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
-	-moz-border-radius: 8px;
-}
-.imgteaser a .more {
-	position: absolute;
-	right: 2px;
-	bottom: -30px;
-	font-size: 1.2em;
-	color: #fff;
-	background: #000;
-	padding: 5px 10px;
-	filter:alpha(opacity=65);
-	opacity:.65;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)"; /*--IE 8 Transparency--*/
-}
-.imgteaser a:hover .desc{
-	display: block;
-	font-size: 1.2em;
-	padding: 10px 0;
-	background: #111;
-	filter:alpha(opacity=75);
-	opacity:.75;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /*--IE 8 Transparency--*/
-	color: #fff;
-	position: absolute;
-	bottom: 11px;
-	left: 11px;
-	padding: 10px;
-	margin: 0;
-	width: 500px;
-	border-top: 1px solid #999;
-}
-.imgteaser a:hover .desc strong {
-	display: block;
-	margin-bottom: 5px;
-	font-size:1.5em;
-}
-.imgteaser a .desc {	display: none; }
-.imgteaser a:hover .more { visibility: hidden;}
 .enter p {
 	float: left;
 	width: 930px;
@@ -285,13 +224,33 @@ details {
 }
 
 /*Logos de Empresas*/
-.container {
-    margin: 0;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: center;
+.partners {
+	background-color: #FFFFFF;
+	background-repeat: repeat-y;
+	position: relative;
+	min-height: 30em;
+	height: auto;
+	border-radius: 2%;
+}
+
+.pabox {
+	float: left;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 30%;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.pabox .titulo {
+	font-size: 36px;
+	font-family: Garamond serif;
+	text-align: center;
+	font: normal;
+	width: 230px;
+	padding-bottom: 0.3em;	
 }
 
 .row:after {

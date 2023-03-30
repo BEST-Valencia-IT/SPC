@@ -76,13 +76,14 @@ nav {
 	text-shadow: 1px 1px 1px #000000;
 	color: #FFA615;
 	padding-top: 10px;
-	text-align: center;
+	text-align: left;
 	margin-top: 10px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	font-size: 28px;
+	font-size: 36px;
 	font-weight: bold;
 }
+
 .fuente_EspacioFooter
 {
 	font-family: Verdana, sans-serif;
