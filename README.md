@@ -9,3 +9,7 @@
 - [ ] Feeback de la web (Contínua infinita)
 - [ ] Horario definitivo y en tabla html
 - [ ] Survival guide abrir en otra pestaña
+
+
+#Color borde azul oscuro: #007c9e
+#Color borde azul claro: #0ea5c5
