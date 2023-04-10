@@ -8,9 +8,7 @@
 	-moz-transition: all 400ms linear 0s;
 }
 footer {
-	/*background-image: url(../images/footer_negro.png);*/
 	background-color: black;
-	/*background-repeat: repeat;*/
 	bottom: 0;
 	width: 100%;
 	height: max-content;
